@@ -3,7 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="8_iOS/EmptyClass.cs">
     <Files>
       <File FileName="8_iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="8_iOS/EmptyClass.cs" Line="13" Column="1" />
+      <File FileName="8_iOS/EmptyClass.cs" Line="2" Column="1" />
+      <File FileName="Library_8iOS/MyClass_test.cs" Line="10" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

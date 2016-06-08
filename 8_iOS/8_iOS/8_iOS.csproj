@@ -101,4 +101,10 @@
     <Compile Include="EmptyClass.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\PortableLibrary_8iOs\PortableLibrary_8iOs.csproj">
+      <Project>{55698738-F4CF-4C2B-BDB4-183D55FA5367}</Project>
+      <Name>PortableLibrary_8iOs</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

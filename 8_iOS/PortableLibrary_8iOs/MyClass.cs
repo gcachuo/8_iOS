@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Library_8iOS
+namespace PortableLibrary_8iOs
 {
 	public class MyClass
 	{
