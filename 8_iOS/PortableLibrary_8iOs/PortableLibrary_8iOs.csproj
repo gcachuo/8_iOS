@@ -32,6 +32,18 @@
   <ItemGroup>
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="JACA\DataAccess\IVenueDAO.cs" />
+    <Compile Include="JACA\BusinessLogic\IVenueBLO.cs" />
+    <Compile Include="JACA\BusinessLogic\Impl\VenueBLO.cs" />
+    <Compile Include="JACA\DataAccess\Impl\VenueDAO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="JACA\" />
+    <Folder Include="JACA\DataAccess\" />
+    <Folder Include="JACA\BusinessLogic\" />
+    <Folder Include="JACA\Entities\" />
+    <Folder Include="JACA\DataAccess\Impl\" />
+    <Folder Include="JACA\BusinessLogic\Impl\" />
+  </ItemGroup>
 </Project>
