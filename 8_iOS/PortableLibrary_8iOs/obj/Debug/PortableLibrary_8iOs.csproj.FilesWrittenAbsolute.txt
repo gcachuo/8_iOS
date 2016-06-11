@@ -1,0 +1,2 @@
+/home/jaca/Documentos/Universidad/8voSemestre/Moviles/TercerParcial/4squarelite/8_iOS/PortableLibrary_8iOs/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/home/jaca/Documentos/Universidad/8voSemestre/Moviles/TercerParcial/4squarelite/8_iOS/PortableLibrary_8iOs/obj/Debug/PortableLibrary_8iOs.dll
