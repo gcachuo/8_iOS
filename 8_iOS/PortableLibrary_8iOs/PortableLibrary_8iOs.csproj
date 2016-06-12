@@ -30,30 +30,26 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Foursquareclient\DataAccess\HttpHandler.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Contact.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\FoursquareResponse.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Group.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Item.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Location.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Response.cs" />
-    <Compile Include="Foursquareclient\DataAccess\Model\Venue.cs" />
-    <Compile Include="Foursquareclient\Entities\VenueDTO.cs" />
-    <Compile Include="Foursquareclient\Resources.cs" />
+    <Compile Include="FoursquareClient\DataAccess\HttpHandler.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Contact.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\FoursquareResponse.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Group.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Item.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Location.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Response.cs" />
+    <Compile Include="FoursquareClient\DataAccess\Model\Venue.cs" />
+    <Compile Include="FoursquareClient\Entities\VenueDTO.cs" />
+    <Compile Include="FoursquareClient\Resources.cs" />
     <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Foursquareclient\DataAccess\IVenueDAO.cs" />
-    <Compile Include="Foursquareclient\BusinessLogic\IVenueBLO.cs" />
-    <Compile Include="Foursquareclient\BusinessLogic\Impl\VenueBLO.cs" />
-    <Compile Include="Foursquareclient\DataAccess\WSImpl\VenueDAOWSImple.cs" />
+    <Compile Include="FoursquareClient\DataAccess\IVenueDAO.cs" />
+    <Compile Include="FoursquareClient\BusinessLogic\IVenueBLO.cs" />
+    <Compile Include="FoursquareClient\BusinessLogic\Impl\VenueBLO.cs" />
+    <Compile Include="FoursquareClient\DataAccess\WSImpl\VenueDAOWSImple.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup />
   <ItemGroup>
-    <Reference Include="Flurl, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\con4squarelite\packages\Flurl.2.0.0\lib\portable-net40+win+wpa81+wp80+MonoAndroid10+MonoTouch10\Flurl.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\con4squarelite\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wp8+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
       <Private>True</Private>
