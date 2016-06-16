@@ -1,13 +1,31 @@
-﻿<Properties StartupItem="8_iOS/8_iOS.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortableLibrary_8iOs/JACA/BusinessLogic/IVenueBLO.cs">
+﻿<Properties StartupItem="Phone_8iOs/Phone_8iOs.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phone_8iOs/vc_MainSelect.cs">
     <Files>
-      <File FileName="PortableLibrary_8iOs/JACA/DataAccess/IVenueDAO.cs" Line="1" Column="1" />
-      <File FileName="PortableLibrary_8iOs/JACA/BusinessLogic/IVenueBLO.cs" Line="1" Column="1" />
+      <File FileName="Phone_8iOs/Favoritesdvc.cs" Line="24" Column="73" />
+      <File FileName="Phone_8iOs/ImageViewController.cs" Line="28" Column="1" />
+      <File FileName="Phone_8iOs/Image.cs" Line="43" Column="1" />
+      <File FileName="Phone_8iOs/vcMap.cs" Line="37" Column="4" />
+      <File FileName="Phone_8iOs/vc_MainSelect.cs" Line="213" Column="1" />
+      <File FileName="Phone_8iOs/ViewController.cs" Line="66" Column="73" />
+      <File FileName="Phone_8iOs/vc_Main.cs" Line="3" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="8_iOS" expanded="True">
+            <Node name="Phone_8iOs" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="vc_MainSelect.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Phone__8iOs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F9F45A3-CF27-4855-AE63-F64528DA4E7A" />
 </Properties>
